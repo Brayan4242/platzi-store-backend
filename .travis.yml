@@ -1,0 +1,26 @@
+language: node_js
+cache: 
+  directories:
+    - node_modules
+    - ~/.npm
+node_js: 
+  - '12'
+
+git: 
+  depth: 3
+script: 
+  - yarn test 
+notifications: 
+  email:
+    recipients:
+      - brayanraph42@gmail
+      on_succes: always
+      on_failure: always
+deploy:
+  provider: heroku
+  skip-cleanup: true 
+  keep-history: true 
+  api_key: 00d7e4c3-cbab-41c0-95c6-5a2940317341
+  app: platzi-storebackend-brayan
+  on: 
+    repo: Brayan4242/platzi-store-backend
