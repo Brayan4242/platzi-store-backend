@@ -20,7 +20,8 @@ deploy:
   provider: heroku
   skip-cleanup: true 
   keep-history: true 
-  api_key: 00d7e4c3-cbab-41c0-95c6-5a2940317341
+  api_key: 
+    secure: "hyYs7XwoBF2gRl/fGyMfxT6yOfIU8FkH8Gn/Bi7IP0mjKC8FsKB22SeMewY1nWMREEDj3v2LGveJgI68bVb2jLRrEnqen9wfO0CR2+yRhMqM3XA2TJYMrHooMLgLj+qRMNkutayWZ18PFbz3qdhtezQhfNQDaImNY8kntdlttvoSrUHRXctg2a5LO4kfddYDkLdMbtDOwbeHbDKIN8/nDFlpDv7FL8jZbBssu/5tn/M4eIk6mQckfRqeSUJ9Xf/K/9jn7U9x35VC1xTaoHkrX6Dv4wSzh/vRV/R0Iq4HeaLb+YyAQw6DEXiYBDTJ5LVtSwWClX2GOX8kg1hII9l0GoliDW85vkMXdCAdB5A4zNd909KX6qdL1FLnxQACODRMjozFo5bw7r/XoHRuAPB8tS207sZBa8tktG2gZlVStKZ81rS6io8d7i74gzyKkQ9BwxsAtj1smJTJNu3p03tLMgmGOupc0JxIq9l4NdwxJbwQZrNTnS6dLTIQsc7xMoNLJ4GUzv0FzlA0Qp/2FFm+q2xcz/827BAY8BSjoQnEX9KGvKG6Z0fElP2nzE0VDGZGnbQV9ErZoDysZv+AOAN7o2RUNySiopw4NTzhfmN3QjDBHx+s9lyUoSbWyKDhq7lkKHeNut23LJPGmp3FoIN9Xltms49NngQcPnXOQN1IRBY="
   app: platzi-storebackend-brayan
   on: 
-    repo: Brayan4242/platzi-store-backend
+    repo: https://github.com/Brayan4242/platzi-store-backend.git
